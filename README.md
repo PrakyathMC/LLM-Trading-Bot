@@ -1,1 +1,2 @@
-# LLM-Trading-Bot
+🤖 LLM-Powered Financial Trading Bot
+An intelligent trading assistant built with RAG (Retrieval-Augmented Generation) that analyzes financial documents and provides expert insights using OpenAI and AstraDB vector storage.
