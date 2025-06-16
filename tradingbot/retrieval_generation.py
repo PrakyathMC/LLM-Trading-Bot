@@ -7,7 +7,7 @@ from tradingbot.data_ingestion import ingestdata
 
 def generation(vstore):
     retriever = vstore.as_retriever(search_kwargs={"k": 3})
-
+    #prompt templating
     PRODUCT_BOT_TEMPLATE = """
     Your finance bot is an expert in finance related advice.
     Ensure your answers are relevant to the query context and refrain from straying off-topic.

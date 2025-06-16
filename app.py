@@ -5,7 +5,7 @@ from tradingbot.retrieval_generation import generation
 from tradingbot.data_ingestion import ingestdata
 
 app = Flask(__name__)
-
+#loading .env
 load_dotenv()
 
 vstore=ingestdata("done")
