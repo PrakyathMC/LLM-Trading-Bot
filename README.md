@@ -68,8 +68,7 @@ Ask financial questions
 "What are the main products?"
 
 🏗️ Architecture
-### PDF Documents → LangChain Loader → Text Chunking → Vector Embeddings → AstraDB
-                                                                          ↓
+### PDF Documents → LangChain Loader → Text Chunking → Vector Embeddings → AstraDB ↓
 ### User Query → Flask API → Retriever → LLM (GPT) → Generated Response ← Context
 
 📁 Project Structure
